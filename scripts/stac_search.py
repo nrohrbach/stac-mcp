@@ -2,7 +2,7 @@ from stac_mcp.tools.client import STACClient
 from stac_mcp.tools.execution import handle_search_items
 
 if __name__ == "__main__":
-    stac_url = "https://planetarycomputer.microsoft.com/api/stac/v1"
+    stac_url = "https://data.geo.admin.ch/api/stac/v1/"
     client = STACClient(catalog_url=stac_url)
     items = handle_search_items(
         client,
