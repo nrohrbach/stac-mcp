@@ -11,7 +11,7 @@ Date: 2025-09-18
 ## Decision
 - Implement a stdio MCP server with four tools:
   - search_collections, get_collection, search_items, get_item
-- Default catalog: https://planetarycomputer.microsoft.com/api/stac/v1
+- Default catalog: https://data.geo.admin.ch/api/stac/v1/
 - Wrap pystac-client Client for API calls.
 - Text-first responses optimized for chat UX.
 - Logging via standard logging; graceful error logging for APIError.
